@@ -1,0 +1,23 @@
+# Ignorar arquivos grandes e temporários
+models/*.pkl
+data/*.csv
+data/*.png
+data/*.json
+
+# Ignorar arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de ambiente
+.env
+venv/
+.envrc
+
+# Ignorar arquivos do VSCode
+.vscode/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
