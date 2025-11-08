@@ -1,4 +1,4 @@
-# Ignorar arquivos grandes e temporários
+# Ignorar arquivos grandes
 models/*.pkl
 data/*.csv
 data/*.png
@@ -10,9 +10,9 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Ignorar arquivos de ambiente
-.env
+# Ignorar ambientes virtuais
 venv/
+.env
 .envrc
 
 # Ignorar arquivos do VSCode
@@ -21,3 +21,6 @@ venv/
 # Ignorar arquivos do sistema
 .DS_Store
 Thumbs.db
+
+# Ignorar notebooks checkpoints
+.ipynb_checkpoints/
