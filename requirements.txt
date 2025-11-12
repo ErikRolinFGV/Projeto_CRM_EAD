@@ -1,6 +1,11 @@
+fastapi
+uvicorn
 pandas
 numpy
 scikit-learn
 plotly
-fastapi
-uvicorn
+xgboost
+PyMuPDF
+requests
+python-dotenv
+sqlalchemy

@@ -1,9 +1,3 @@
-# Ignorar arquivos grandes
-models/*.pkl
-data/*.csv
-data/*.png
-data/*.json
-
 # Ignorar arquivos do Python
 __pycache__/
 *.pyc
@@ -24,3 +18,10 @@ Thumbs.db
 
 # Ignorar notebooks checkpoints
 .ipynb_checkpoints/
+
+# Ignorar banco local e PDFs
+history.db
+*.pdf
+
+# Ignorar logs
+*.log
